@@ -48,11 +48,60 @@ public class ESTRUCTURA_DE_DATOS2025 {
     
         System.out.println(nombre.length());
         System.out.println(nombre.charAt(0));
+        System.out.println(nombre.charAt(nombre.length()-1));
     
+    String pasword = "Camaron25";
     
-    
-    
-    
+    if(pasword.equals("Camaron25")){
+        System.out.println("Bienvenido al Sistema");       
+     
+    }else{     
+        System.out.println("Contraseña incorrecta");
+        
+        
+    String usuario = "Abelito";   
+        
+       if(usuario.equalsIgnoreCase("AbElItO")){
+        System.out.println("Usuario correcto");       
+     
+    }else{      
+       System.out.println("Ese usualio no existe");
+           
+           
+       
+       
+       //Convertir las letras a 
+       //Mayuscula
+           System.out.println(nombre.toUpperCase());
+       //Minuscula
+           System.out.println(nombre.toLowerCase());
+       //Eliminar espacio
+           System.out.println(nombre.trim());
+       
+           String correo = "mcampaaceves@gmail.com";
+           
+           //gmail
+           //termine en ".com"
+           //Que tenga el "@"
+           if(
+             correo.contains("gmail") //TRUE si la variable contiene el gmail
+             && correo.endsWith(".com") //TRUE Si contiene el ".com"
+             ){ 
+            System.out.println("correo valido");
+                   
+           }else{
+               System.out.println("Correo invalido ! XXXXX");
+           
+           }
+           //regresa el indice, si no lo encuentra regresa -1
+           System.out.println(correo.indexOf("@"));
+           System.out.println(correo.startsWith("Kimberly"));
+           
+           
+           
+           }
+           
     }
     
+}
 }
