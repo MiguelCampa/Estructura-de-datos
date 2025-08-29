@@ -66,9 +66,9 @@ public class ESTRUCTURA_DE_DATOS2025 {
      
     }else{      
        System.out.println("Ese usualio no existe");
+       }       
            
-           
-       
+      
        
        //Convertir las letras a 
        //Mayuscula
@@ -141,4 +141,4 @@ public class ESTRUCTURA_DE_DATOS2025 {
     }
     
 }
-}
+
