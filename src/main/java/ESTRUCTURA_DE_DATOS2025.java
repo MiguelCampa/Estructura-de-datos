@@ -97,8 +97,45 @@ public class ESTRUCTURA_DE_DATOS2025 {
            System.out.println(correo.indexOf("@"));
            System.out.println(correo.startsWith("Kimberly"));
            
+           //Extraccion
+           String clase = "EstructuraDeDatos";
+           String palabra1 = clase.substring(0,10);
+           String palabra2 = clase.substring(10);
+           
+           System.out.println("Palabra original:" + clase);
+           System.out.println("Primera parte"+palabra1);
+           System.out.println("Ultima parte"+palabra2);
            
            
+           //Remplazar Caracteres
+           
+           String itson = "INSTITUTO TECNOLOGICO DE SONORA";
+           
+           String itson2 = itson.replace(" ", "-");
+           itson2 = itson.replace("T", "L");
+           itson2 = itson2.replace("A", "E");
+           System.out.println("itson2");
+                   
+           //Remplazar mucho por uno
+           System.out.println(itson.replaceAll("[AEIOUaeiou]","*"));
+           
+           String palabra3 = "Hola Mundo";
+           
+           System.out.println(palabra3.replace("Mundo", "Casa de los famosos"));
+           
+           //Split
+           //Una sola cadena de texto la vuelve varias cadenas 
+           
+           // Miguel Humberto Campa Aceves 00000268635
+           
+           String nombres = "Lupita.Maria.Juana.Josefina";
+           String [] listaNombre = nombres.split(".");
+          
+           
+           System.out.println("1 :" +listaNombre[0]);  
+           System.out.println("2 :" +listaNombre[1]);
+           System.out.println("3 :" +listaNombre[2]);
+           System.out.println("4 :" +listaNombre[3]);
            }
            
     }
